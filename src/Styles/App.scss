@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(197, 246, 235);
+    background-color: rgba(168, 201, 186, 0.943);
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
@@ -32,7 +32,7 @@
     justify-content: space-evenly;
     width: 100%;
     height: 40vh;
-    background-color: rgb(176, 250, 225);
+    background-color: rgb(171, 214, 199);
 
     >h1 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -64,7 +64,8 @@
         height: 30px;
         border: 1px solid black;
         border-radius: 0.3rem;
-        background-color: rgba(120, 248, 205, 0.683);
+        // background-color: rgba(120, 248, 205, 0.683);
+        background-color: rgba(165, 202, 185, 0.943);
         color: rgba(255, 254, 254, 0.964);
 
         &:hover {
@@ -87,7 +88,8 @@
 }
 
 .task-container {
-    background-color: rgb(217, 248, 241);
+    // background-color: rgb(217, 248, 241);
+    background-color: rgba(203, 235, 228, 0.963);
     width: 95%;
     height: fit-content;
     margin-bottom: 20px;
@@ -101,6 +103,7 @@
         width: 100%;
         height: fit-content;
         justify-content: space-between;
+        overflow: hidden;
         overflow-x: break-word;
 
         .button {
@@ -116,15 +119,14 @@
             }
 
             .edit {
-                background-color: rgba(120, 248, 205, 0.683);
-
+                background-color: rgba(165, 202, 185, 0.943);
                 &:hover {
                     background-color: rgba(108, 108, 243, 0.57);
                 }
             }
 
             .delete {
-                background-color: rgba(120, 248, 205, 0.683);
+                background-color: rgba(165, 202, 185, 0.943);
 
                 &:hover {
                     background-color: rgba(246, 114, 114, 0.536);
@@ -143,13 +145,7 @@
     }
 
     .toDo-container {
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
-        // justify-content: flex-start;
         width: 100%;
         height: 100vh;
-        // background-color: rgb(97, 97, 79);
-        // padding:(200px,0px,20px,0px);
     }
 }
